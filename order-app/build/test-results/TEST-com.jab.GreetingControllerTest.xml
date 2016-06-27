@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.jab.GreetingControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-27T18:07:54" hostname="USABOS147426L" time="0.005">
-  <properties/>
-  <testcase name="testGreeting" classname="com.jab.GreetingControllerTest" time="0.005"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
