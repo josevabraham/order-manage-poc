@@ -1,4 +1,4 @@
-package com.jab;
+package com.order.app;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,7 +11,7 @@ import com.order.app.OrderManagementApplication;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = OrderManagementApplication.class)
 @WebAppConfiguration
-public class PocApplicationTests {
+public class OrderManagementApplicationTests {
 
 	@Test
 	public void contextLoads() {
