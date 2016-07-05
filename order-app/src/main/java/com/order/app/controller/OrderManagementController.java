@@ -31,7 +31,7 @@ public class OrderManagementController {
         this.orderService = orderService;
     }
 
-    @RequestMapping(path = "/createOrder", method = RequestMethod.PUT, consumes = "application/json")
+    @RequestMapping(path = "/createOrder", method = RequestMethod.POST, consumes = "application/json")
     @ApiOperation(value = "Creates a new order", notes = "Creates a new order and returns orderId.", response = Long.class)
     @ApiResponses(value = { 
             @ApiResponse(code = 201, message = "Successful created the order", response = Long.class), 
