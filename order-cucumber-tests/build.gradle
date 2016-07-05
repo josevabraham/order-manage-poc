@@ -3,6 +3,7 @@
  }
  
 dependencies {
+    testCompile group: 'info.cukes', name: 'cucumber-junit', version: '1.2.4'
 	testCompile group: 'info.cukes', name: 'cucumber-spring', version: '1.2.4'
 
 }
